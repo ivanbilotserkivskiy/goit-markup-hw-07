@@ -79,12 +79,13 @@
         transition-property: transform;
         transition-duration: 250ms;
         transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+        .portfolio-list-item:hover & {
+            transform: translateY(0);
+        }
+        .portfolio-list-item-link:focus & {
+            transform: translateY(0);
+        }
     }
-    .portfolio-list-item:hover .portfolio-image-div-text{
-        transform: translateY(0);
-    }
-    .portfolio-list-item-link:focus .portfolio-image-div-text{
-        transform: translateY(0);
-    }
+
     /* end portfolio */
     
