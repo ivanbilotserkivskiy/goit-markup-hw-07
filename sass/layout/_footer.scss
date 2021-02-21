@@ -43,10 +43,11 @@ color: rgba(255, 255, 255, 0.6);
 transition-property: color;
 transition-duration: 250ms;
 transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-.footer-tel-link:hover,
-.footer-tel-link:focus{
+&:hover,
+&:focus{
     color: var(--accent-color)
+}
+
 }
 .footer-email-link {
 font-style: normal;
@@ -58,11 +59,12 @@ color: rgba(255, 255, 255, 0.6);
 transition-property: color;
 transition-duration: 250ms;
 transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-.footer-email-link:hover,
-.footer-email-link:focus{
+&:hover,
+&:focus{
     color: var(--accent-color)
 }
+}
+
 .footer-social-div {
     width: 206px;
     height: 80px;
@@ -94,15 +96,16 @@ transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     transition-property: background-color;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-    }
-.social_footer-list-item-link:hover,
-.social_footer-list-item-link:focus {
+    &:hover,
+    &:focus {
     background-color: var(--accent-color);
     }
-.social_footer-list-item-link:hover .social-list-item-icon,
-.social_footer-list-item-link:focus .social-list-item-icon {
+    &:hover .social-list-item-icon,
+    &:focus .social-list-item-icon {
     fill: #ffffff;
     }
+    }
+
 .social_footer-list-item-icon{
     width: 20px;
     height: 20px;
@@ -112,8 +115,6 @@ transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     .footer-form-div {
         margin-left: 93px;
         align-items: center;
-    }
-    .footer-form {
     }
     .footer-form-label {
         display: block;
