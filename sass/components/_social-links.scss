@@ -20,13 +20,14 @@
 }
 }
 
-.social-list-item-link:hover .social-list-item-icon,
-.social-list-item-link:focus .social-list-item-icon {
-    fill: #ffffff;
-}
+
 .social-list-item-icon{
     width: 20px;
     height: 20px;
     fill: #AFB1B8;
+    .social-list-item-link:hover &,
+    .social-list-item-link:focus & {
+    fill: #ffffff;
+}
     }
   
