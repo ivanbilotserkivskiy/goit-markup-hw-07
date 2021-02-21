@@ -13,11 +13,13 @@
     transition-property: background-color;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-.social-list-item-link:hover,
-.social-list-item-link:focus {
+
+    &:hover,
+    &:focus {
     background-color: var(--accent-color);
 }
+}
+
 .social-list-item-link:hover .social-list-item-icon,
 .social-list-item-link:focus .social-list-item-icon {
     fill: #ffffff;
