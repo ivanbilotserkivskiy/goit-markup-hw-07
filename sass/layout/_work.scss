@@ -17,6 +17,9 @@ display: none;
     justify-content: center;
     align-content: center;
     margin: -15px;
+    &:not(:last-child){
+        margin-right: 30px;
+    }
 }
 .work-list {
     margin-top: 50px;
@@ -25,9 +28,7 @@ display: none;
     align-content: center;
 
 }
-.work-list-item:not(:last-child){
-    margin-right: 30px;
-}
+
 .work-list-item-images-text {
     font-weight: 700;
     font-size: 14px;
