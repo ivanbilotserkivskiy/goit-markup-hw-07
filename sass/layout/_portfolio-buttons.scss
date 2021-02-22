@@ -9,14 +9,20 @@
     align-content: center;
     justify-content: center;
 }
-.portfolio_buttons-list-item:not(:last-child) {
-    margin-right: 10px;
+.portfolio_buttons-list-item{
+    &:not(:last-child) {
+        margin-right: 10px;
+    }
+    padding-left: 22px;
+    padding-right: 22px;
 }
 .portfolio_buttons-title {
     display: none;
 }
 .portfolio_buttons-list-item-text {
 cursor: pointer;
+padding-left: 22px;
+padding-right: 22px;
 min-width: 100px;
 min-height: 40px;
 font-style: normal;
