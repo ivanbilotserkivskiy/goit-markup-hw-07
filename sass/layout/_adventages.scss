@@ -27,9 +27,12 @@ letter-spacing: 0.03em;
 margin-top: 15px;
 max-width: 260px;
 }
-.adv-list-item:not(:last-child) {
-    margin-right: 30px;
+.adv-list-item {
+    &:not(:last-child) {
+        margin-right: 30px;
+    }
 }
+
 .adv-list-item-icon {
     width: 65px;
     height: 70px;
