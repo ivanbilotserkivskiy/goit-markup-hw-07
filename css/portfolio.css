@@ -428,7 +428,8 @@ img {
 
 .portfolio_buttons-list-item-text {
   cursor: pointer;
-  margin-left: 22px;
+  padding-left: 22px;
+  padding-right: 22px;
   min-width: 100px;
   min-height: 40px;
   font-style: normal;
