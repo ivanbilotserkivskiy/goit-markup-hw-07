@@ -287,12 +287,12 @@ img {
   align-items: center;
 }
 
-.navigation-list-item:not(:last-child) {
-  margin-right: 50px;
-}
-
 .navigation-list-item {
   position: relative;
+}
+
+.navigation-list-item:not(:last-child) {
+  margin-right: 50px;
 }
 
 .address-list-item-curent::after {
@@ -428,6 +428,7 @@ img {
 
 .portfolio_buttons-list-item-text {
   cursor: pointer;
+  margin-left: 22px;
   min-width: 100px;
   min-height: 40px;
   font-style: normal;
@@ -509,11 +510,11 @@ img {
   height: 404px;
 }
 
-.portfolio-list-item:hover {
+.portfolio-list-item-link:focus .portfolio-list-item-link-div {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
-.portfolio-list-item-link:focus .portfolio-list-item-link-div {
+.portfolio-list-item:hover {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
