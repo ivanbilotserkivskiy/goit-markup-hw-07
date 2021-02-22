@@ -32,11 +32,12 @@ padding-top: 25px;
     display: flex;
     align-items: center;
 }
-.navigation-list-item:not(:last-child){
-    margin-right: 50px;
-}
+
 .navigation-list-item {
     position: relative;
+    &:not(:last-child){
+        margin-right: 50px;
+    }
 }
 .address-list-item-curent{
     &::after {
@@ -79,10 +80,11 @@ padding-top: 25px;
 .address-list-item{
     display: flex;
     align-items: center;
+    &:not(:last-child) {
+        margin-right: 50px;
+    }
 }
-.address-list-item:not(:last-child) {
-    margin-right: 50px;
-}
+
 
 
 .email-link {
